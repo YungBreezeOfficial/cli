@@ -209,8 +209,8 @@ importers:
         specifier: 4.4.1
         version: 4.4.1(@types/react@17.0.2)(react@18.2.0)
       javy-cli:
-        specifier: 0.1.8
-        version: 0.1.8
+        specifier: 0.2.0
+        version: 0.2.0
       micromatch:
         specifier: 4.0.5
         version: 4.0.5
@@ -7018,7 +7018,7 @@ packages:
   /cross-fetch@3.1.6:
     resolution: {integrity: sha512-riRvo06crlE8HiqOwIpQhxwdOk4fOeR7FVM/wXoxchFEqMNUjvbs3bfo4OTgMEMHzppd4DxFBDbyySj8Cv781g==}
     dependencies:
-      node-fetch: 2.6.11
+      node-fetch: 2.7.0
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -9674,12 +9674,12 @@ packages:
       filelist: 1.0.4
       minimatch: 3.1.2
 
-  /javy-cli@0.1.8:
-    resolution: {integrity: sha512-6CEmAB9/NtdbUh33u5tww9RTiJ/CqqH7+iPgKb5FprIm9NOwaETVIAuN9gDN3zXZb9ePb/wVQw73icBY9EuFOg==}
+  /javy-cli@0.2.0:
+    resolution: {integrity: sha512-kxY6+q+1bhXjfFb5o8ETlfKtxEMajSqNB/0G1l9tVfFU0RMYiDHHRQgs2r8cSAZhkEgs2gSKlpxgopQ4NuL6Ig==}
     hasBin: true
     dependencies:
       cachedir: 2.3.0
-      node-fetch: 3.3.1
+      node-fetch: 3.3.2
     dev: false
 
   /jest-diff@26.6.2:
@@ -10671,18 +10671,6 @@ packages:
   /node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
-
-  /node-fetch@2.6.11:
-    resolution: {integrity: sha512-4I6pdBY1EthSqDmJkiNk3JIT8cswwR9nfeW/cPdUagJYEQG7R95WRH74wpz7ma8Gh/9dI9FP+OU+0E4FvtA55w==}
-    engines: {node: 4.x || >=6.0.0}
-    peerDependencies:
-      encoding: ^0.1.0
-    peerDependenciesMeta:
-      encoding:
-        optional: true
-    dependencies:
-      whatwg-url: 5.0.0
-    dev: false
 
   /node-fetch@2.7.0:
     resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
@@ -12169,7 +12157,7 @@ packages:
       react: '>=16.6.0'
       react-dom: '>=16.6.0'
     dependencies:
-      '@babel/runtime': 7.22.6
+      '@babel/runtime': 7.21.5
       dom-helpers: 5.2.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
